@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'frutigernext';
   src: url('../../fonts/LT_54361.eot');
@@ -1406,7 +1410,7 @@ ul {
   text-align: center;
   font-size: 24px;
   color: #fff;
-  top: 65%;
+  top: 75%;
   margin-left: -125px;
   box-shadow: 1px 0 10px rgba(0, 0, 0, .2);
   text-decoration: none;
@@ -2788,4 +2792,24 @@ ul {
 .slider {
   background: black;
   overflow: hidden;
+}
+
+.video_box {
+  position: relative!important;
+  width: 50%;
+}
+
+.video_box .combo-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
